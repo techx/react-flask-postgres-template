@@ -37,8 +37,8 @@ Begin by installing a PostgreSQL client such as pgAdmin (at https://www.pgadmin.
 At this stage, you can create a database by running `CREATE DATABASE "tweeter";` and your database will be created!
 
 ## Further info
-There are plenty of resources online on how to use React, Flask, and PostgreSQL, but we recommend checking out the following official user guides below:
-https://react.dev/
-https://flask.palletsprojects.com/en/2.3.x/
-https://www.postgresql.org/docs/6.3/p02.htm
+There are plenty of resources online on how to use React, Flask, and PostgreSQL, but we recommend checking out the following official user guides below:  
+https://react.dev/  
+https://flask.palletsprojects.com/en/2.3.x/  
+https://www.postgresql.org/docs/6.3/p02.htm  
 Have fun hacking!
