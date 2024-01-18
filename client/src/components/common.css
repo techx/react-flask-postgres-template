@@ -1,0 +1,99 @@
+button {
+  margin: 10px;
+  padding: 8px 15px;
+  background-color: #0092bc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  
+button:hover {
+  background-color: #006684;
+}
+
+  
+input[type="text"] {
+  width: calc(100% - 90px); 
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+  
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.actions {
+  float:right;
+  padding: 15px;
+}
+
+.input-group {
+  padding: 15px;
+}
+
+  
+.modal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* space between grid items */
+}
+
+@media (max-width: 768px) {
+  .modal-grid {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+  }
+}
+
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.left-controls {
+  display: flex;
+  align-items: center;
+}
+
+.right-controls {
+  display: flex;
+  justify-content: right;
+  width: 300px;
+}
+
+.entries-info {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.top-bar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 100px;
+  padding: 10px;
+}
+
+.button-bar {
+  padding: 20px;
+  font-weight: bold;
+}
